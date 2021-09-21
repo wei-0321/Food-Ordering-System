@@ -18,7 +18,7 @@ A simple food ordering system implementation on android platform. Developed with
 ```
 3.Clone this repository. 
 ```
-> git clone https://github.com/wei-0321/Flappy-Bird.git
+> git clone https://github.com/wei-0321/Food-Ordering-System.git
 ```
 
 
