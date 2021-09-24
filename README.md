@@ -1,5 +1,5 @@
 # Food-Ordering-System
-A simple food ordering system implementation on android platform. Developed with java language.
+A simple food ordering system implementation on android platform. Written in java language.
 
 # Overview 
 (not done yet)
