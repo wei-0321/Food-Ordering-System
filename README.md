@@ -2,13 +2,13 @@
 A simple food ordering system implementation on android platform. Written in java language.
 
 # Overview 
-(not done yet)
+(not finished yet)
 
 # Requirements 
-(not done yet)
+(not finished yet)
 
 # Usage 
-(not done yet)
+(not finished yet)
 
 1.Open git bash. 
 
@@ -23,7 +23,7 @@ A simple food ordering system implementation on android platform. Written in jav
 
 
 # Project Structure
-(not done yet)
+(not finished yet)
 
 ```
 (Path)                                	(Description)
