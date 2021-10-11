@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 元件之間若要有間隔 => 新增layout_margin屬性 -->
+
+    <ImageView
+        android:id="@+id/IMV_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/food"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/TV_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="套餐組合(150元)"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TV_mainDish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:text="主餐"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <RadioGroup
+        android:id="@+id/RG_mainDish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/RB_dish1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="瑪格麗特帕里尼(含風味沙拉)"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/RB_dish2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="法式鹹派(含風味沙拉)"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/RB_dish3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="肉桂貝果佐風味果醬優格"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/TV_drink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:text="附餐飲料"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <RadioGroup
+        android:id="@+id/RG_drink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/RB_drink1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="熱美式咖啡"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/RB_drink2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="熱拿鐵"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/RB_drink3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="冰伯爵紅茶"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <!-- 巢狀結構 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75sp"
+        android:orientation="horizontal"
+        android:paddingLeft="40sp"
+        android:paddingRight="0sp">
+
+
+        <Button
+            android:id="@+id/BTN_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableBottom="@drawable/minus"
+            android:text="Button" />
+
+        <TextView
+            android:id="@+id/TV_amount"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginVertical="10sp"/>  <!--設置垂直間隔-->
+
+
+        <Button
+            android:id="@+id/BTN_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableBottom="@drawable/plus"
+            android:text="Button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20sp"
+        >
+
+        <Button
+            android:id="@+id/BTN_add_to_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#009688"
+            android:text="新增至購物車"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/BTN_check_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#009688"
+            android:text="檢視購物車"
+            android:textColor="#FFFFFF"
+            android:layout_marginHorizontal = "20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="50sp"
+        android:paddingRight="50sp">
+
+        <Button
+            android:id="@+id/BTN_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30sp"
+            android:background="@drawable/button"
+            android:text="返回主畫面"
+            android:textAlignment="center"
+            android:textColor="#FF5722"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</LinearLayout>
