@@ -1,34 +1,14 @@
 # Food-Ordering-System
-A simple food ordering system implementation on android platform. Written in java language.
+An implementation of simple food ordering system on android platform. Written in java language.
 
 # Overview 
-(not finished yet)
+
+introduction PPT : 
+
+[Food-Ordering-System.pptx](https://github.com/wei-0321/Food-Ordering-System/files/7360027/Food-Ordering-System.pptx)
 
 # Requirements 
-(not finished yet)
+A phone with Android os or Android emulator is required.
 
 # Usage 
-(not finished yet)
-
-1.Open git bash. 
-
-2.Change the diretory where you want to do download this repository.
-```
-> cd (your directory)
-```
-3.Clone this repository. 
-```
-> git clone https://github.com/wei-0321/Food-Ordering-System.git
-```
-
-
-# Project Structure
-(not finished yet)
-
-```
-(Path)                                	(Description)
-
-
-
-
-```
+Download the apk file and run it on your device.
